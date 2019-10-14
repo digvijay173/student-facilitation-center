@@ -1,0 +1,53 @@
+.bplan-font{
+  text-decoration-color:#001132;
+}
+.marbpbenefits{
+ margin-left:45%;
+  margin-right:20%;
+  text-align:justify;
+}
+	.avatar{
+	display:none;
+	}
+	.black-icon{
+        color: #000;
+        transition: 0.1s;
+        text-shadow: 1px 1px #585757;
+    }
+    .black-icon:hover{
+        color: #275BA3;
+        transform: scale(3);
+
+    }
+    .white-icon{
+        transition: 0.1s;
+        text-shadow: 1px 1px #585757;
+    }
+    .white-icon:hover{
+        color: #D8D612;
+        transform: scale(2);
+    }
+    .fa-2x.white-icon{
+        font-size: 1.5rem;
+    }
+    .fa-2x.black-icon{
+        font-size: 1.5rem;
+    }
+    .item{
+        border: 1px solid black;
+        border-radius: 4px;
+        box-shadow: 5px 2px 12px #888888 !important;
+        height:65vh;
+    }
+@media screen and (max-width: 767px) {
+ .fullscreen-video-wrap{
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+	.avatar{	
+		display:block;
+		max-height: 100%;
+		max-width: 100%;
+		}
+}
